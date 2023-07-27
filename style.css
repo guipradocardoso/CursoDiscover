@@ -20,6 +20,11 @@ body {
   margin-left: auto;*/
 }
 
+#profile {
+  /*Em display = inline não se usa margin: auto||||| <div> é block</div>*/
+  text-align: center;
+}
+
 #profile img {
   width: 112px;
 }
