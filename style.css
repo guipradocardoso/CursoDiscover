@@ -12,10 +12,14 @@ body {
 
 #container {
   width: 360px;
-  height: 712px;
+  height: 712px; /*Não é ideal determinar a largura.*/
 
   border: 1px solid red;
   margin: auto;
   /*margin-right: auto;
   margin-left: auto;*/
+}
+
+#profile img {
+  width: 112px;
 }
