@@ -67,4 +67,7 @@ ul li a {
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none; /*Remove Sublinhamento no texto (line-thought para colocar linha no meio // overline - linha em cima*/
+  font-weight: 500; /* acima de 400 é bold mas ser especifico e melhor.*/
 }
