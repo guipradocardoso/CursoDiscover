@@ -70,4 +70,11 @@ ul li a {
 
   text-decoration: none; /*Remove Sublinhamento no texto (line-thought para colocar linha no meio // overline - linha em cima*/
   font-weight: 500; /* acima de 400 é bold mas ser especifico e melhor.*/
+
+  transition: background 0.2s;
+}
+/*Pseudo - selector ele aplica as coisas ao passar o mouse por cima*/
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
