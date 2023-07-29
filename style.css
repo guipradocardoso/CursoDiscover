@@ -21,7 +21,7 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px;
+  margin: 56px auto 0;
   padding: 0 24px;
   /*height: 712px;*/ /*Não é ideal determinar a largura.*/
 
@@ -81,16 +81,38 @@ ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
 }
+/*
+ion-icon {
+  margin: 16px;
+}
+ion-icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  border-radius: 50%;
+}
+*/
 
 /*Social Links*/
 #social-links {
   display: flex;
 
+  gap: 16px;
+
   justify-content: center;
-  
-  gap: 32px;
 
   padding: 24px 0;
 
   font-size: 24px;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
