@@ -47,13 +47,14 @@ body * {
   line-height: 24px;
   margin-top: 8px;
 }
-/* Lunks */
+/* Links */
 ul {
   list-style: none;
 
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 16px; /*Gap - espaçamento entre icones.*/
+  padding: 24px 0;
 }
 ul li a {
   display: flex;
@@ -79,4 +80,17 @@ ul li a {
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
+}
+
+/*Social Links*/
+#social-links {
+  display: flex;
+
+  justify-content: center;
+  
+  gap: 32px;
+
+  padding: 24px 0;
+
+  font-size: 24px;
 }
