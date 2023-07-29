@@ -21,11 +21,13 @@ body * {
 
 #container {
   width: 360px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
   /*height: 712px;*/ /*Não é ideal determinar a largura.*/
 
   /*border: 1px solid red;*/
-  margin: auto;
-  margin: 56px auto 0px;
+  /*margin: auto;*/
+
   /*padding: 100px;*/
   /*margin-right: auto;
   margin-left: auto;*/
